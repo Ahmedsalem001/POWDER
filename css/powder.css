@@ -451,6 +451,11 @@ ul {
   -ms-transform: translateX(-50%);
   outline: 10px solid var(--main-background);
 }
+@media (min-width:991px){
+  .navigation{
+    display: none;
+  }
+}
 .navigation ul {
   display: flex;
   width: 350px;
